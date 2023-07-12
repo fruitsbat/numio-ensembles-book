@@ -1,0 +1,6 @@
+[book]
+authors = ["zoe"]
+language = "en"
+multilingual = false
+src = "src"
+title = "numio ensembles"
