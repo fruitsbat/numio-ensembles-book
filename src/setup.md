@@ -1,15 +1,8 @@
 # Setup
 
-## Get python working
+## dependencies
+the script needs srun and NumIO installed. make sure you have these first!
 
-__There is a good chance this is already working on your system.__ Check if either `python --version` or `pip --version` return an error.
-If these work you can skip this step.
-
-If you have access to [Spack](https://spack.io/) you get one by running `spack load -first python`.
-Else you can also use your package manager of choice.
-
-## Setting up the venv
-
-It is generally not recommended to install python dependencies globally since this might mess up your environment.
-
-`python -m venv /path/to/new/virtual/environment`
+## the binary
+ensembles itself is conveniently bundled into a single executable file.
+Just download the latest release from [github](https://github.com/fruitsbat/numio-ensembles/releases/) and you will be ready to run it on your system.

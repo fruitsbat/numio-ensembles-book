@@ -17,3 +17,6 @@ NumIO ensembles uses [typer](https://typer.tiangolo.com/) for parsing cli args a
 
 ## python dateutil
 [python dateutil](https://pypi.org/project/python-dateutil/) is used to convert times to human readable formats.
+
+## pyinstaller
+[PyInstaller](https://pyinstaller.org/en/stable/index.html) is used to generate the executable folder.

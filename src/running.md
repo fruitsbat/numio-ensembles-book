@@ -1,4 +1,8 @@
 # Running
+you can run ensembles by starting the script.
+get a list of subcommands by running `ensembles --help`.
+you can also get help for a subcommand by running `ensembles ${subcommand} --help`.
+for example if you want help with the advanced command then you can run `ensembles advanced --help` for the custom subcommand of advanced you can type `ensembles ${subcommand} advanced custom --help`.
 
 ## simple mode
 This most basic run looks like `ensembles simple`.
@@ -22,3 +26,4 @@ A benchmark with a lot of background noise.
 
 ## custom
 A benchmark with customizable background daemons.
+You will have to specifiy the number of background daemons for this one.
