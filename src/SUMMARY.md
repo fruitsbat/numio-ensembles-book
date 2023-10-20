@@ -1,6 +1,7 @@
 # Summary
 
 - [Introduction](./intro.md)
+- [Features](./features.md)
 - [Setup](./setup.md)
 - [Background Daemons](./daemons.md)
 - [Running](./running.md)

@@ -8,7 +8,13 @@
     flake-utils.lib.eachDefaultSystem (system:
       let pkgs = (import nixpkgs) { inherit system; };
       in {
-        # For `nix develop` (optional, can be skipped):
-        devShell = pkgs.mkShell { buildInputs = with pkgs; [ mdbook just ]; };
+        devShell = pkgs.mkShell {
+          buildInputs = with pkgs; [
+            mdbook # for creating documentation books
+            just # for runnning commands
+            helix # an easy to set up vim like editor
+            marksman # a markdown language server
+          ];
+        };
       });
 }
